@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "module_name": "threemaAndroidBackup",
+    "artifact_name": "Threema Android Backup - Media",
+    "function_name": "threemaAndroidBackupMedia",
+    "case_number": "caseSYNTH001",
+    "number_of_columns": 11,
+    "number_of_rows": 7,
+    "total_data_size_bytes": 2019,
+    "media_checkins": 7,
+    "media_embedded_checkins": 0,
+    "input_zip_path": "admin/test/cases/data/threemaAndroidBackup/testdata.threemaAndroidBackup.threemaAndroidBackupMedia.caseSYNTH001.zip",
+    "start_time": "2026-11-16T18:02:35.545590+00:00",
+    "end_time": "2026-11-16T18:02:35.557781+00:00",
+    "run_time_seconds": 0.0006771087646484375,
+    "last_commit": {
+      "hash": "Uncommitted",
+      "author_name": "N/A",
+      "author_email": "N/A",
+      "date": "2026-11-16T19:02:35.553987",
+      "message": "File not yet committed to git"
+    }
+  },
+  "headers": [
+    "Posted At",
+    "Direction",
+    "Sender",
+    "Conversation",
+    "Media",
+    "Content Type",
+    "File Role",
+    "File Name",
+    "MIME Type (as stored)",
+    "UID",
+    "Source File"
+  ],
+  "data": [
+    [
+      1700000120,
+      "Outgoing",
+      "Local User",
+      "Alice Example (TESTAB12)",
+      "mock_hash_for_message_media_29425020-196d-c45d-161b-c13bec353ec3",
+      "image/jpeg",
+      "Media",
+      "IMG_0001.jpg",
+      "image/jpeg",
+      "29425020-196d-c45d-161b-c13bec353ec3",
+      "synth_threema_android/threema-backup_TESTOWN1_1700000600000_1/message_media_29425020-196d-c45d-161b-c13bec353ec3"
+    ],
+    [
+      1700000240,
+      "Incoming",
+      "Alice Example (TESTAB12)",
+      "Alice Example (TESTAB12)",
+      "mock_hash_for_message_media_4b4a495e-bcc1-25a8-77bf-11d0d62c7ef2",
+      "video/mp4",
+      "Media",
+      "clip.mp4",
+      "video/mp4",
+      "4b4a495e-bcc1-25a8-77bf-11d0d62c7ef2",
+      "synth_threema_android/threema-backup_TESTOWN1_1700000600000_1/message_media_4b4a495e-bcc1-25a8-77bf-11d0d62c7ef2"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "mock_hash_for_message_media_7b4a280b-3b41-d3c0-0f70-a848d5d91cbd",
+      "image/png",
+      "Media",
+      "",
+      "",
+      "7b4a280b-3b41-d3c0-0f70-a848d5d91cbd",
+      "synth_threema_android/threema-backup_TESTOWN1_1700000600000_1/message_media_7b4a280b-3b41-d3c0-0f70-a848d5d91cbd"
+    ],
+    [
+      1700000180,
+      "Incoming",
+      "Alice Example (TESTAB12)",
+      "Alice Example (TESTAB12)",
+      "mock_hash_for_message_media_93cf1bc4-bc22-6545-27d9-4b8bfef90c9f",
+      "audio/mp4",
+      "Media",
+      "voice.aac",
+      "audio/aac",
+      "93cf1bc4-bc22-6545-27d9-4b8bfef90c9f",
+      "synth_threema_android/threema-backup_TESTOWN1_1700000600000_1/message_media_93cf1bc4-bc22-6545-27d9-4b8bfef90c9f"
+    ],
+    [
+      1700000120,
+      "Outgoing",
+      "Local User",
+      "Alice Example (TESTAB12)",
+      "mock_hash_for_message_thumbnail_29425020-196d-c45d-161b-c13bec353ec3",
+      "image/jpeg",
+      "Thumbnail",
+      "IMG_0001.jpg",
+      "image/jpeg",
+      "29425020-196d-c45d-161b-c13bec353ec3",
+      "synth_threema_android/threema-backup_TESTOWN1_1700000600000_1/message_thumbnail_29425020-196d-c45d-161b-c13bec353ec3"
+    ],
+    [
+      1700000240,
+      "Incoming",
+      "Alice Example (TESTAB12)",
+      "Alice Example (TESTAB12)",
+      "mock_hash_for_message_thumbnail_4b4a495e-bcc1-25a8-77bf-11d0d62c7ef2",
+      "image/png",
+      "Thumbnail",
+      "clip.mp4",
+      "video/mp4",
+      "4b4a495e-bcc1-25a8-77bf-11d0d62c7ef2",
+      "synth_threema_android/threema-backup_TESTOWN1_1700000600000_1/message_thumbnail_4b4a495e-bcc1-25a8-77bf-11d0d62c7ef2"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "mock_hash_for_message_thumbnail_8f5e0e56-9799-6bc6-db8e-e2ec50995925",
+      "image/jpeg",
+      "Thumbnail",
+      "",
+      "",
+      "8f5e0e56-9799-6bc6-db8e-e2ec50995925",
+      "synth_threema_android/threema-backup_TESTOWN1_1700000600000_1/message_thumbnail_8f5e0e56-9799-6bc6-db8e-e2ec50995925"
+    ]
+  ]
+}

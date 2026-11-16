@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "module_name": "threemaAndroidBackup",
+    "artifact_name": "Threema Android Backup - Account",
+    "function_name": "threemaAndroidBackupAccount",
+    "case_number": "caseSYNTH001",
+    "number_of_columns": 5,
+    "number_of_rows": 2,
+    "total_data_size_bytes": 87,
+    "media_checkins": 0,
+    "media_embedded_checkins": 0,
+    "input_zip_path": "admin/test/cases/data/threemaAndroidBackup/testdata.threemaAndroidBackup.threemaAndroidBackupAccount.caseSYNTH001.zip",
+    "start_time": "2026-11-16T18:02:35.517989+00:00",
+    "end_time": "2026-11-16T18:02:35.531194+00:00",
+    "run_time_seconds": 0.0005083084106445312,
+    "last_commit": {
+      "hash": "Uncommitted",
+      "author_name": "N/A",
+      "author_email": "N/A",
+      "date": "2026-11-16T19:02:35.527404",
+      "message": "File not yet committed to git"
+    }
+  },
+  "headers": [
+    "Created (from Name)",
+    "Threema ID (from Name)",
+    "Identity File Present",
+    "Settings",
+    "Backup Folder"
+  ],
+  "data": [
+    [
+      1700000600,
+      "TESTOWN1",
+      "Yes",
+      "version=16",
+      "threema-backup_TESTOWN1_1700000600000_1"
+    ],
+    [
+      "",
+      "",
+      "No",
+      "",
+      "unpacked_backup"
+    ]
+  ]
+}

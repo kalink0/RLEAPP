@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "module_name": "threemaAndroidBackup",
+    "artifact_name": "Threema Android Backup - Groups",
+    "function_name": "threemaAndroidBackupGroups",
+    "case_number": "caseSYNTH001",
+    "number_of_columns": 12,
+    "number_of_rows": 2,
+    "total_data_size_bytes": 403,
+    "media_checkins": 0,
+    "media_embedded_checkins": 0,
+    "input_zip_path": "admin/test/cases/data/threemaAndroidBackup/testdata.threemaAndroidBackup.threemaAndroidBackupGroups.caseSYNTH001.zip",
+    "start_time": "2026-11-16T18:02:35.570679+00:00",
+    "end_time": "2026-11-16T18:02:35.582591+00:00",
+    "run_time_seconds": 0.0004379749298095703,
+    "last_commit": {
+      "hash": "Uncommitted",
+      "author_name": "N/A",
+      "author_email": "N/A",
+      "date": "2026-11-16T19:02:35.580083",
+      "message": "File not yet committed to git"
+    }
+  },
+  "headers": [
+    "Created At",
+    "First Message",
+    "Last Message",
+    "Group Name",
+    "Group ID",
+    "Creator",
+    "Members",
+    "Member Count",
+    "Messages",
+    "Deleted (as stored)",
+    "Archived (as stored)",
+    "Source File"
+  ],
+  "data": [
+    [
+      1699913600,
+      1700000001,
+      1700000004,
+      "Synthetic Group",
+      "0123456789abcdef",
+      "Alice Example (TESTAB12)",
+      "Alice Example (TESTAB12)\nCarol Sample (TESTEF56)\nTESTZZ99",
+      3,
+      4,
+      "0",
+      "0",
+      "synth_threema_android/threema-backup_TESTOWN1_1700000600000_1/groups.csv"
+    ],
+    [
+      1699913600,
+      1699999520,
+      1699999540,
+      "Synthetic Group",
+      "0123456789abcdef",
+      "Alice Example (TESTAB12)",
+      "Alice Example (TESTAB12)\nCarol Sample (TESTEF56)",
+      2,
+      3,
+      "0",
+      "0",
+      "synth_threema_android/unpacked_backup/groups.csv"
+    ]
+  ]
+}
