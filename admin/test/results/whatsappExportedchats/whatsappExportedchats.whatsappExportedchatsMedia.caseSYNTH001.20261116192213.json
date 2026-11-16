@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "module_name": "whatsappExportedchats",
+    "artifact_name": "Whatsapp Exported Chat - Media",
+    "function_name": "whatsappExportedchatsMedia",
+    "case_number": "caseSYNTH001",
+    "number_of_columns": 11,
+    "number_of_rows": 8,
+    "total_data_size_bytes": 1742,
+    "media_checkins": 7,
+    "media_embedded_checkins": 0,
+    "input_zip_path": "admin/test/cases/data/whatsappExportedchats/testdata.whatsappExportedchats.whatsappExportedchatsMedia.caseSYNTH001.zip",
+    "start_time": "2026-11-16T19:22:13.057269+00:00",
+    "end_time": "2026-11-16T19:22:13.068684+00:00",
+    "run_time_seconds": 0.0010750293731689453,
+    "last_commit": {
+      "hash": "786e8df7e5e0473b76e468a149d129a654b5a713",
+      "author_name": "Brigs",
+      "author_email": "abrignoni@gmail.com",
+      "date": "2026-10-04T16:48:05-04:00",
+      "message": "Preserve return timestamps and retain complete message records"
+    }
+  },
+  "headers": [
+    "Timestamp (local time, offset unknown)",
+    "Direction",
+    "Sender",
+    "Conversation",
+    "Media",
+    "Content Type",
+    "File Name",
+    "File Present",
+    "Timestamp (as printed)",
+    "Line",
+    "Source File"
+  ],
+  "data": [
+    [
+      1765703040,
+      "Incoming",
+      "~\u202fPushname",
+      "Synthetic Group",
+      "",
+      "",
+      "00000009-VIDEO-2025-12-02-10-04-00.mp4",
+      "No",
+      "14.12.25, 10:04:00",
+      6,
+      "synth_whatsapp_export/ios/WhatsApp Chat - Synthetic Group/_chat.txt"
+    ],
+    [
+      1764576210,
+      "Incoming",
+      "Alice Example",
+      "Alice Example",
+      "mock_hash_for_00000003-PHOTO-2025-12-01-09-03-30.jpg",
+      "image/jpeg",
+      "00000003-PHOTO-2025-12-01-09-03-30.jpg",
+      "Yes",
+      "01.12.25, 09:03:30",
+      4,
+      "synth_whatsapp_export/ios/WhatsApp Chat - Alice Example/_chat.txt"
+    ],
+    [
+      1764576280,
+      "Outgoing",
+      "Owner Name",
+      "Alice Example",
+      "mock_hash_for_00000004-AUDIO-2025-12-01-09-04-40.opus",
+      "audio/ogg",
+      "00000004-AUDIO-2025-12-01-09-04-40.opus",
+      "Yes",
+      "01.12.25, 09:04:40",
+      5,
+      "synth_whatsapp_export/ios/WhatsApp Chat - Alice Example/_chat.txt"
+    ],
+    [
+      1765703040,
+      "Incoming",
+      "+49 151 0000001",
+      "Synthetic Group",
+      "mock_hash_for_VID-20251202-WA0003.mp4",
+      "video/mp4",
+      "VID-20251202-WA0003.mp4",
+      "Yes",
+      "14/12/2025, 10:04",
+      6,
+      "synth_whatsapp_export/android/WhatsApp Chat with Synthetic Group/WhatsApp Chat with Synthetic Group.txt"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Synthetic Group",
+      "mock_hash_for_IMG-20251202-WA0099.jpg",
+      "image/jpeg",
+      "IMG-20251202-WA0099.jpg",
+      "Yes",
+      "",
+      "",
+      "synth_whatsapp_export/android/WhatsApp Chat with Synthetic Group/WhatsApp Chat with Synthetic Group.txt"
+    ],
+    [
+      1764576180,
+      "Incoming",
+      "Alice Example",
+      "Alice Example",
+      "mock_hash_for_IMG-20251201-WA0001.jpg",
+      "image/jpeg",
+      "IMG-20251201-WA0001.jpg",
+      "Yes",
+      "01/12/2025, 09:03",
+      6,
+      "synth_whatsapp_export/android/WhatsApp Chat with Alice Example/WhatsApp Chat with Alice Example.txt"
+    ],
+    [
+      1764576240,
+      "Outgoing",
+      "Owner Name",
+      "Alice Example",
+      "mock_hash_for_PTT-20251201-WA0002.opus",
+      "audio/ogg",
+      "PTT-20251201-WA0002.opus",
+      "Yes",
+      "01/12/2025, 09:04",
+      8,
+      "synth_whatsapp_export/android/WhatsApp Chat with Alice Example/WhatsApp Chat with Alice Example.txt"
+    ],
+    [
+      1765647000,
+      "Incoming",
+      "Alice Example",
+      "Alice Example",
+      "mock_hash_for_Report.pdf",
+      "application/pdf",
+      "Report.pdf",
+      "Yes",
+      "13/12/2025, 18:30",
+      9,
+      "synth_whatsapp_export/android/WhatsApp Chat with Alice Example/WhatsApp Chat with Alice Example.txt"
+    ]
+  ]
+}
