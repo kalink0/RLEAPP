@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "module_name": "wireBackup",
+    "artifact_name": "Wire Backup - Conversations",
+    "function_name": "wireBackupConversations",
+    "case_number": "caseSYNTH001",
+    "number_of_columns": 11,
+    "number_of_rows": 6,
+    "total_data_size_bytes": 1234,
+    "media_checkins": 0,
+    "media_embedded_checkins": 0,
+    "input_zip_path": "admin/test/cases/data/wireBackup/testdata.wireBackup.wireBackupConversations.caseSYNTH001.zip",
+    "start_time": "2026-11-22T08:26:19.667793+00:00",
+    "end_time": "2026-11-22T08:26:19.682813+00:00",
+    "run_time_seconds": 0.001386404037475586,
+    "last_commit": {
+      "hash": "Uncommitted",
+      "author_name": "N/A",
+      "author_email": "N/A",
+      "date": "2026-11-22T09:26:19.678868",
+      "message": "File not yet committed to git"
+    }
+  },
+  "headers": [
+    "Last Modified At",
+    "Last Read At",
+    "First Message",
+    "Last Message",
+    "Messages",
+    "Name",
+    "Conversation",
+    "Participants Seen",
+    "Listed in Conversations",
+    "Conversation ID",
+    "Source File"
+  ],
+  "data": [
+    [
+      1735733400,
+      "",
+      1735732800,
+      1735733220,
+      7,
+      "Synthetic Group",
+      "Synthetic Group",
+      "00000000-0000-4000-8000-00000000a004@wire.example.org\nAlice Example (@alice.example)\nBob Sample (@bob.sample)\nLocal User",
+      "Yes",
+      "00000000-0000-4000-8000-0000000c0001@wire.example.org",
+      "wire-backup-synthetic/Wire-owner-Backup_2025-01-31.wbu"
+    ],
+    [
+      1735733520,
+      "",
+      1735733400,
+      1735733580,
+      4,
+      "",
+      "Unnamed: Alice Example (@alice.example)",
+      "Alice Example (@alice.example)\nLocal User",
+      "Yes",
+      "00000000-0000-4000-8000-0000000c0002@wire.example.org",
+      "wire-backup-synthetic/Wire-owner-Backup_2025-01-31.wbu"
+    ],
+    [
+      1735734000,
+      "",
+      1735734000,
+      1735734000,
+      1,
+      "",
+      "Unnamed: 00000000-0000-4000-8000-0000000c0003@wire.example.org",
+      "Local User",
+      "Yes",
+      "00000000-0000-4000-8000-0000000c0003@wire.example.org",
+      "wire-backup-synthetic/Wire-owner-Backup_2025-01-31.wbu"
+    ],
+    [
+      1735732800,
+      "",
+      "",
+      "",
+      0,
+      "_",
+      "_",
+      "",
+      "Yes",
+      "00000000-0000-4000-8000-0000000c0004@wire.example.org",
+      "wire-backup-synthetic/Wire-owner-Backup_2025-01-31.wbu"
+    ],
+    [
+      "",
+      "",
+      1735734600,
+      1735734600,
+      1,
+      "",
+      "Unnamed: Bob Sample (@bob.sample)",
+      "Bob Sample (@bob.sample)",
+      "No (only in messages)",
+      "00000000-0000-4000-8000-0000000c0005@wire.example.org",
+      "wire-backup-synthetic/Wire-owner-Backup_2025-01-31.wbu"
+    ],
+    [
+      "",
+      "",
+      1735735200,
+      1735735200,
+      1,
+      "Synthetic Group",
+      "Synthetic Group",
+      "Local User",
+      "Yes",
+      "00000000-0000-4000-8000-0000000c0001@wire.example.org",
+      "wire-backup-synthetic/second/Wire-other-2025-02-01_10-20-30.wbu"
+    ]
+  ]
+}

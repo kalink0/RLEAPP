@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "module_name": "wireBackup",
+    "artifact_name": "Wire Backup - Users",
+    "function_name": "wireBackupUsers",
+    "case_number": "caseSYNTH001",
+    "number_of_columns": 6,
+    "number_of_rows": 3,
+    "total_data_size_bytes": 405,
+    "media_checkins": 0,
+    "media_embedded_checkins": 0,
+    "input_zip_path": "admin/test/cases/data/wireBackup/testdata.wireBackup.wireBackupUsers.caseSYNTH001.zip",
+    "start_time": "2026-11-22T08:26:19.639353+00:00",
+    "end_time": "2026-11-22T08:26:19.653620+00:00",
+    "run_time_seconds": 0.0011303424835205078,
+    "last_commit": {
+      "hash": "Uncommitted",
+      "author_name": "N/A",
+      "author_email": "N/A",
+      "date": "2026-11-22T09:26:19.650332",
+      "message": "File not yet committed to git"
+    }
+  },
+  "headers": [
+    "Name",
+    "Handle",
+    "Messages Sent",
+    "Is Account",
+    "User ID",
+    "Source File"
+  ],
+  "data": [
+    [
+      "Alice Example",
+      "alice.example",
+      4,
+      "",
+      "00000000-0000-4000-8000-00000000a002@wire.example.org",
+      "wire-backup-synthetic/Wire-owner-Backup_2025-01-31.wbu"
+    ],
+    [
+      "Bob Sample",
+      "bob.sample",
+      3,
+      "",
+      "00000000-0000-4000-8000-00000000a003@wire.example.org",
+      "wire-backup-synthetic/Wire-owner-Backup_2025-01-31.wbu"
+    ],
+    [
+      "Alice Example",
+      "alice.example",
+      0,
+      "",
+      "00000000-0000-4000-8000-00000000a002@wire.example.org",
+      "wire-backup-synthetic/second/Wire-other-2025-02-01_10-20-30.wbu"
+    ]
+  ]
+}
